@@ -1,0 +1,178 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+}
+
+
+/* Containers */
+
+.container-fluid {
+  padding: 5% 13%;
+ }
+
+/* Sections */
+
+.image-header {
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("paddle_main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: calc(10rem - 4.5rem);
+  color: #0e4257;
+}
+
+
+.about-section {
+  background-color: #0e4257;
+  padding-bottom: 5%;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+}
+
+p {
+    color: #c7ecff;
+    font-size: 1.4rem;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+ font-size: 2.5rem;
+ font-family: 'Didact Gothic', sans-serif;
+ color: #3c4245 !important;
+}
+
+.navbar-brand:hover {
+  color: #0e4257 !important;
+}
+
+.navitem {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 400;
+    color: #3c4245 !important;
+}
+
+.nav-link:hover {
+  color: #0e4257 !important;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 10% 7% 10%;
+  text-align: center;
+}
+
+
+/* Features Section */
+
+.about-title {
+color: #ef8172;
+}
+
+a {
+  color: #ef8172;
+}
+
+a:hover {
+  color: #c7ecff;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#features {
+    background-color: #0e4257;
+    position: relative;
+    z-index: 1; /* you actually don't need this if you follow flow chart because it comes later in the flow */
+}
+
+
+/* Testimonial Section */
+
+.destination-title {
+ font-size: 2rem;
+ color: #3c4245;
+ padding-top: 5%;
+}
+
+#testimonials {
+ background-color: #ef8172;
+}
+
+.testimonial-text {
+ font-size: 1.3rem;
+ color: #3c4245;
+ padding: 4%;
+}
+
+.testimonial-image1 {
+  width: 60%;
+  height: 60%;
+  margin: -15px;
+  border-radius: 30px;
+}
+
+.testimonial-image2 {
+  width: 60%;
+  height: 60%;
+  margin: -15px;
+  border-radius: 30px;
+}
+
+.testimonial-image3 {
+  width: 60%;
+  height: 60%;
+  margin: -15px;
+  border-radius: 30px;
+}
+
+
+/* Footer Section */
+
+.footer-section {
+  background-color: #0e4257;
+}
+
+/* 
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+*/
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+ }
